@@ -1,5 +1,10 @@
-# one-clip
-Shared clipboard between Windows and macOS/iOS
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/84752451/153381548-b64ed2b9-5372-4cb2-bf6f-292ac16017e3.png" height="300">
+  
+  # oneclip
+  
+</div>
+Shared clipboard experience between Windows and macOS/iOS
 
 #  Installation
 This script requires two computers, both with Python3 installed and pip3. If the computer OS combo is macOS to Windows and the Mac is logged into an iCloud account with an iOS or iPadOS device, three-dimensional clipboard will be achieved from PC<>Mac<>iOS/iPadOS. Each time the script connects to a peer, it exchanges a key that is used to cryptographically encrypt the clipboard as it is transmitted between peers (overkill i know).
